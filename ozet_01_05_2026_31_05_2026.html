@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>XR LTD — 01.05.2026 — 31.05.2026 Aylık Özet (30 gün) — 01.05.2026 / 31.05.2026</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+:root{--bg:#0f1117;--bg2:#161b27;--bg3:#1e2535;--bo:#2a3347;--tx:#e8ecf4;--tx2:#8a96b0;--tx3:#5a6480;--ac:#4f8ef7;--gn:#2ecc8a;--am:#f5a623;--rd:#e84545;--tl:#1db8a8;--pu:#9b72ef;}
+[data-theme="light"]{--bg:#f0f2f5;--bg2:#ffffff;--bg3:#eaedf2;--bo:#cdd2de;--tx:#1a1d27;--tx2:#4a5270;--tx3:#8a90a8;--ac:#2563eb;--gn:#16a34a;--am:#c97706;--rd:#dc2626;--tl:#0d9488;--pu:#7c3aed;}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;font-size:13px;line-height:1.5;}
+.rhead{background:var(--bg2);border-bottom:1px solid var(--bo);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;position:sticky;top:0;z-index:100;}
+.firma{font-size:15px;font-weight:600;}
+.radi{font-size:11px;color:var(--tx3);margin-top:2px;}
+.rhr{display:flex;align-items:center;gap:10px;}
+.dchip{background:var(--bg3);border:1px solid var(--bo);border-radius:6px;padding:4px 12px;font-size:11px;color:var(--tx2);font-family:'IBM Plex Mono',monospace;}
+.thbtn{background:var(--bg3);border:1px solid var(--bo);border-radius:20px;padding:5px 14px;cursor:pointer;font-size:11px;color:var(--tx2);font-family:inherit;}
+.wrap{padding:20px;max-width:1200px;margin:0 auto;}
+.card{background:var(--bg2);border:1px solid var(--bo);border-radius:10px;padding:18px;margin-bottom:14px;}
+.csm{padding:13px 15px;}
+.ct{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.09em;color:var(--tx3);margin-bottom:10px;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px;}
+.g21{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:14px;}
+.ml{font-size:11px;color:var(--tx3);margin-bottom:3px;}
+.mv{font-size:20px;font-weight:600;font-family:'IBM Plex Mono',monospace;line-height:1.1;}
+.mv.g{color:var(--gn);}
+.mv.a{color:var(--am);}
+.mv.r{color:var(--rd);}
+.mv.b{color:var(--ac);}
+.ms{font-size:11px;color:var(--tx3);margin-top:3px;}
+.sh{display:flex;align-items:center;gap:8px;margin:24px 0 12px;}
+.sh:first-child{margin-top:0;}
+.dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+.dot.g{background:var(--gn);}
+.dot.b{background:var(--ac);}
+.dot.a{background:var(--am);}
+.dot.r{background:var(--rd);}
+.dot.t{background:var(--tl);}
+.dot.p{background:var(--pu);}
+.stt{font-size:14px;font-weight:500;}
+table{width:100%;border-collapse:collapse;}
+th{font-size:10px;color:var(--tx3);font-weight:600;text-transform:uppercase;letter-spacing:.07em;padding:7px 10px;text-align:left;border-bottom:1px solid var(--bo);background:transparent;}
+td{padding:8px 10px;border-bottom:1px solid rgba(128,128,128,.06);font-size:12px;background:transparent;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(128,128,128,.03);}
+.mo{font-family:'IBM Plex Mono',monospace;}
+.tr{text-align:right;}
+.trow td{font-weight:600;color:var(--tx);border-top:1px solid var(--bo);padding-top:10px;background:transparent;}
+.trow:hover td{background:transparent;}
+.badge{font-size:10px;font-weight:500;padding:2px 8px;border-radius:4px;letter-spacing:.04em;display:inline-block;}
+.bok{background:rgba(46,204,138,.14)!important;color:var(--gn);}
+.bwn{background:rgba(245,166,35,.14)!important;color:var(--am);}
+.bng{background:rgba(232,69,69,.14)!important;color:var(--rd);}
+.bif{background:rgba(79,142,247,.14)!important;color:var(--ac);}
+.bt td{padding:8px 10px;font-size:12px;border-bottom:1px solid rgba(128,128,128,.06);}
+.bt .bv{text-align:right;font-family:'IBM Plex Mono',monospace;font-weight:500;}
+.bt .bm{color:var(--rd);}
+.bt .bp{color:var(--gn);}
+.bt .btot td{font-size:13px;font-weight:600;border-top:2px solid var(--bo);padding-top:10px;}
+.dg{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px;}
+.dc{background:var(--bg3);border:1px solid var(--bo);border-radius:8px;padding:10px 12px;}
+.dcur{font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.08em;}
+.dval{font-size:16px;font-weight:600;font-family:'IBM Plex Mono',monospace;margin-top:3px;}
+.dsub{font-size:10px;color:var(--tx3);margin-top:2px;}
+.bhlt td{color:var(--am);}
+.uy-blok{border-radius:10px;padding:16px;margin-bottom:10px;}
+.uy-blok.dng{background:rgba(232,69,69,.07);border:1px solid rgba(232,69,69,.22);}
+.uy-blok.okk{background:rgba(46,204,138,.07);border:1px solid rgba(46,204,138,.22);}
+.uy-blok-t{font-size:12px;font-weight:600;margin-bottom:10px;}
+.uy-blok-t.r{color:var(--rd);}
+.uy-blok-t.g{color:var(--gn);}
+.uy-item{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid rgba(128,128,128,.08);}
+.uy-item:last-child{border-bottom:none;padding-bottom:0;}
+.uy-ic{font-size:14px;flex-shrink:0;margin-top:1px;}
+.uy-txt{flex:1;min-width:0;}
+.uy-bas{font-size:12px;font-weight:500;margin-bottom:3px;}
+.uy-deg{font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--tx2);line-height:1.7;}
+.uy-det{font-size:11px;color:var(--tx2);line-height:1.7;margin-top:4px;}
+.uy-ak{font-size:11px;color:var(--am);margin-top:4px;}
+hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
+.barchart{display:flex;flex-direction:column;gap:6px;margin-top:4px;}
+.barrow{display:flex;align-items:center;gap:8px;}
+.barlabel{font-size:11px;color:var(--tx2);min-width:110px;text-align:right;}
+.bartrack{flex:1;background:var(--bg3);border-radius:4px;height:20px;position:relative;overflow:visible;}
+.barfill{height:100%;border-radius:4px;transition:width .4s ease;min-width:2px;}
+.barpct{font-size:10px;color:var(--tx2);margin-left:6px;white-space:nowrap;font-family:'IBM Plex Mono',monospace;}
+.rfooter{text-align:center;padding:20px;font-size:11px;color:var(--tx3);border-top:1px solid var(--bo);margin-top:20px;}
+@media(max-width:900px){.g4{grid-template-columns:1fr 1fr;}.g3{grid-template-columns:1fr 1fr;}.dg{grid-template-columns:1fr 1fr;}}
+@media(max-width:600px){.wrap{padding:14px 12px;}.g2,.g21{grid-template-columns:1fr;}.g3{grid-template-columns:1fr;}.g4{grid-template-columns:1fr 1fr;}.dg{grid-template-columns:1fr 1fr;}.mv{font-size:17px;}.barlabel{min-width:80px;font-size:10px;}}
+</style>
+
+</head>
+<body>
+<div class="rhead">
+  <div>
+    <div class="firma">XR LTD</div>
+    <div class="radi">Aylık Özet (30 gün) — 01.05.2026 / 31.05.2026</div>
+  </div>
+  <div class="rhr">
+
+    <div class="dchip">01.05.2026 — 31.05.2026</div>
+  </div>
+</div>
+<div class="wrap">
+
+<!-- BÖLÜM 1 -->
+<div class="sh"><span class="dot g"></span><span class="stt">Bu dönemde ne kadar hasılatımız oldu?</span></div>
+<div class="g3">
+  <div class="card csm"><div class="ml">Brüt Hasılat</div><div class="mv">10.695.256</div><div class="ms">&#8378;</div></div>
+  <div class="card csm"><div class="ml">İndirimler Toplamı</div><div class="mv r">906.343</div><div class="ms">&#8378; — İkram + İptal/İade + İndirim</div></div>
+  <div class="card csm"><div class="ml">Net Hasılat</div><div class="mv g">9.784.974</div><div class="ms">&#8378; — Gerçek tahsil edilen</div></div>
+</div>
+<div class="g2">
+  <div class="card">
+    <div class="ct">Brüt &#8594; Net Hasılat Köprü Tablosu</div>
+    <table class="bt"><tbody>
+      <tr><td>Brüt Satış</td><td class="bv bp">10.695.255,80 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İkram</td><td class="bv bm">591.336,80 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İptal / İade</td><td class="bv bm">193.230,15 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İndirim</td><td class="bv bm">121.775,89 &#8378;</td></tr>
+      <tr class="btot"><td>= Net Hasılat</td><td class="bv bp">9.784.973,76 &#8378;</td></tr>
+    </tbody></table>
+  </div>
+  <div class="card">
+    <div class="ct">Köprü Grafik</div>
+    <div class="barchart">
+<div class="barrow">
+  <div class="barlabel">Brüt</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:100.0%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%100.0</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İkram</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-5.5%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-5.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İptal/İade</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-1.8%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-1.8</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İndirim</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-1.1%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-1.1</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Net</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:91.5%;background:#2ecc8a"></div>
+  </div>
+  <div class="barpct">%91.5</div>
+</div></div>
+  </div>
+</div>
+
+<hr>
+
+<!-- BÖLÜM 2 -->
+<div class="sh"><span class="dot b"></span><span class="stt">Bu dönemde Neler Sattık?</span></div>
+<div class="g2">
+  <div class="card"><div class="ct">Kategori Bazlı Ciro — Grafik</div><div class="barchart">
+<div class="barrow">
+  <div class="barlabel">Ağır Alkol</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:52.9%;background:#9b72ef"></div>
+  </div>
+  <div class="barpct">%52.9</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Bira</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:22.1%;background:#f5a623"></div>
+  </div>
+  <div class="barpct">%22.1</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Soft / Diğer</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:12.4%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%12.4</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Kokteyl</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:6.8%;background:#1db8a8"></div>
+  </div>
+  <div class="barpct">%6.8</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Yemek</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:3.7%;background:#2ecc8a"></div>
+  </div>
+  <div class="barpct">%3.7</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Soft / Diğer/çerez/maytap</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:1.5%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%1.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Şarap</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:0.4%;background:#ff6b9d"></div>
+  </div>
+  <div class="barpct">%0.4</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Soft / Diğer/maytap/çerez</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:0.3%;background:#9b72ef"></div>
+  </div>
+  <div class="barpct">%0.3</div>
+</div></div></div>
+  <div class="card">
+    <div class="ct">Kategori Detayı</div>
+    <table>
+      <thead><tr><th>Kategori</th><th class="tr">Tutar (&#8378;)</th><th class="tr">%</th></tr></thead>
+      <tbody>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#9b72ef;margin-right:6px"></span>Ağır Alkol</td>
+  <td class="tr mo">5.428.095,23</td>
+  <td class="tr"><span class="badge bif">%52.9</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#f5a623;margin-right:6px"></span>Bira</td>
+  <td class="tr mo">2.266.795,19</td>
+  <td class="tr"><span class="badge bif">%22.1</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#4f8ef7;margin-right:6px"></span>Soft / Diğer</td>
+  <td class="tr mo">1.274.327,67</td>
+  <td class="tr"><span class="badge bif">%12.4</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#1db8a8;margin-right:6px"></span>Kokteyl</td>
+  <td class="tr mo">693.822,82</td>
+  <td class="tr"><span class="badge bif">%6.8</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#2ecc8a;margin-right:6px"></span>Yemek</td>
+  <td class="tr mo">377.759,07</td>
+  <td class="tr"><span class="badge bif">%3.7</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#e84545;margin-right:6px"></span>Soft / Diğer/çerez/maytap</td>
+  <td class="tr mo">158.611,21</td>
+  <td class="tr"><span class="badge bif">%1.5</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#9b72ef;margin-right:6px"></span>Şarap</td>
+  <td class="tr mo">36.452,19</td>
+  <td class="tr"><span class="badge bif">%0.4</span></td>
+</tr>
+<tr>
+  <td><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#f5a623;margin-right:6px"></span>Soft / Diğer/maytap/çerez</td>
+  <td class="tr mo">34.080,41</td>
+  <td class="tr"><span class="badge bif">%0.3</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+<hr>
+
+<!-- BÖLÜM 3 -->
+<div class="sh"><span class="dot a"></span><span class="stt">Hasılatımızı nasıl tahsil ettik?</span></div>
+<div class="g2">
+  <div class="card"><div class="ct">Tahsilat Yöntemleri — Grafik</div><div class="barchart">
+<div class="barrow">
+  <div class="barlabel">Nakit Toplamı</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:14.5%;background:#2ecc8a"></div>
+  </div>
+  <div class="barpct">%14.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Garanti KK</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:85.5%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%85.5</div>
+</div></div></div>
+  <div class="card">
+    <div class="ct">Tahsilat Tablosu</div>
+    <table>
+      <thead><tr><th>Tahsilat Türü</th><th class="tr">Tutar (&#8378;)</th><th class="tr">%</th></tr></thead>
+      <tbody>
+        <tr><td>TL Nakit (Z Rapor)</td><td class="tr mo">1.098.009,16</td><td class="tr"><span class="badge bif">%11.2</span></td></tr>
+        <tr><td>Euro (TL karşılığı)</td><td class='tr mo'>307.748,35</td><td class='tr'><span class='badge bif'>%3.1</span></td></tr>
+        <tr><td>CHF (TL karşılığı)</td><td class='tr mo'>13.500,00</td><td class='tr'><span class='badge bif'>%0.1</span></td></tr>
+        <tr style="background:#f0fdf4"><td><strong>Nakit Toplamı</strong></td><td class="tr mo"><strong>1.419.257,51</strong></td><td class="tr"><span class="badge bif">%14.5</span></td></tr>
+        <tr><td>Garanti KK Toplam</td><td class="tr mo">8.371.024,00</td><td class="tr"><span class="badge bok">%85.5</span></td></tr>
+        <tr><td>Yemeksepeti Online</td><td class="tr mo">0,00</td><td class="tr"><span class='badge bwn'>—</span></td></tr>
+        <tr><td>IBAN Havale</td><td class="tr mo">0,00</td><td class="tr"><span class='badge bwn'>—</span></td></tr>
+        <tr class="trow"><td>GENEL TOPLAM</td><td class="tr mo">9.790.281,51</td><td class="tr"><span class="badge bok">%100</span></td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:8px;font-size:11px;color:var(--tx3)">
+      Nakit toplamı: 1.419.257,51 &#8378; = TL (1.098.009,16) + Euro (307.748,35) + CHF (13.500,00)
+    </div>
+    <button onclick='tahsilatExcel()' style='margin-top:10px;background:#16a34a;border:none;border-radius:6px;padding:5px 14px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel İndir</button>
+  </div>
+</div>
+
+<hr>
+
+<!-- BÖLÜM 4 -->
+<div class="sh"><span class="dot t"></span><span class="stt">Kasa Hareketlerimiz?</span></div>
+<div class="g4">
+  <div class="card csm"><div class="ml">Devir Kasa Mevcudu</div><div class="mv" style="font-size:17px">141.547</div><div class="ms">&#8378;</div></div>
+  <div class="card csm"><div class="ml">Bu Dönemdeki Tahsilat</div><div class="mv g" id="kap_tahsilat" style="font-size:17px">1.419.258</div><div class="ms">&#8378; — Nakit (TL+Döviz)</div>
+    <button onclick='tahsilatExcel()' style='margin-top:8px;background:#16a34a;border:none;border-radius:6px;padding:4px 11px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel</button>
+  </div>
+  <div class="card csm">
+    <div class="ml">Bu Dönemdeki Tediyeler</div><div class="mv a" style="font-size:17px">570.853</div><div class="ms">&#8378;</div>
+    <button onclick='toggleMasraf()' style='margin-top:8px;background:none;border:1px solid var(--bo);border-radius:6px;padding:4px 11px;color:var(--tx3);font-family:inherit;font-size:11px;cursor:pointer'>Detay ▾</button>
+    <button onclick='tediyeExcel()' style='margin-top:8px;margin-left:6px;background:#16a34a;border:none;border-radius:6px;padding:4px 11px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel</button>
+  </div>
+  <div class="card csm"><div class="ml">Kasa Mevcudu</div><div class="mv b" style="font-size:17px">162.701</div><div class="ms">&#8378;</div></div>
+</div>
+<div class="dg">
+  <div class="dc"><div class="dcur">TL MEVCUT</div><div class="dval g" id="kap_tl">162.700,51 &#8378;</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">EURO MEVCUT</div><div class="dval" id="kap_eur">355 &#8364;</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">DOLAR MEVCUT</div><div class="dval" id="kap_usd">100 $</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">STERLİN MEVCUT</div><div class="dval" id="kap_gbp">5 &#163;</div><div class="dsub">Kapanış</div></div>
+</div>
+
+<div id="mlist" style="display:none">
+<div class="card">
+  <div class="ct">Tediye Detayı — 247 Kalem</div>
+  <table>
+    <thead><tr><th>#</th><th>Açıklama</th><th class="tr">Tutar (&#8378;)</th></tr></thead>
+    <tbody><tr><td>1</td><td>[01.05.2026] OSMAN DİLEK TEMİZLİK ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>2</td><td>[01.05.2026] UMUT YILDIRIM MESAİ ÖDEME</td><td class='tr mo'>900,00</td></tr><tr><td>3</td><td>[01.05.2026] GİZEM KESİK KAPI KARŞILAMA EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>4</td><td>[01.05.2026] MEHMET ACAR MUTFAK EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>5</td><td>[01.05.2026] NALAN HANIM ARAÇ YIKAMA BEDELİ</td><td class='tr mo'>600,00</td></tr><tr><td>6</td><td>[01.05.2026] HIRDAVAT ALIŞVERİŞİ</td><td class='tr mo'>350,00</td></tr><tr><td>7</td><td>[01.05.2026] ALİ CİHAD CÖRÜT NİSAN AYI MAAŞ AVANSI</td><td class='tr mo'>5.000,00</td></tr><tr><td>8</td><td>[01.05.2026] KEVSER HANIM CH</td><td class='tr mo'>8.775,00</td></tr><tr><td>9</td><td>[01.05.2026] ALİMÜNYUM KÜLLÜK ALIMI</td><td class='tr mo'>925,00</td></tr><tr><td>10</td><td>[01.05.2026] KUMAŞ PARFÜM ALIMI</td><td class='tr mo'>170,00</td></tr><tr><td>11</td><td>[01.05.2026] EKMEK ALIMI</td><td class='tr mo'>154,95</td></tr><tr><td>12</td><td>[01.05.2026] HASAN GÜNAYDIN 2 GÜNLÜK STEWARD ÖDEME</td><td class='tr mo'>1.800,00</td></tr><tr><td>13</td><td>[01.05.2026] CEMRE AĞAOĞLU 2 GÜNLÜK SERVİS EXTRA ÖDEME</td><td class='tr mo'>2.000,00</td></tr><tr><td>14</td><td>[01.05.2026] HÜSEYİN PERSİYANİ SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>15</td><td>[01.05.2026] ENES DURSUN 2 GÜNLÜK SERVİS EXTRA ÖDEME</td><td class='tr mo'>2.000,00</td></tr><tr><td>16</td><td>[01.05.2026] PERSONEL YEMEK ÜCRETİ</td><td class='tr mo'>1.440,00</td></tr><tr><td>17</td><td>[01.05.2026] NURİ AVCI NİSAN MAAŞ  AVANSI</td><td class='tr mo'>20.000,00</td></tr><tr><td>18</td><td>[01.05.2026] 34GFV509 PLAKALI ARAÇ YAKIT ALIMI</td><td class='tr mo'>2.853,44</td></tr><tr><td>19</td><td>[01.05.2026] MASTER FOTOKOPİ MAS 2026000000187 NL FT ÖDEME</td><td class='tr mo'>960,00</td></tr><tr><td>20</td><td>[02.05.2026] osman dilek aykol temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>21</td><td>[02.05.2026] buse karaarslan kapıkarşılma extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>22</td><td>[02.05.2026] gizem kesik kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>23</td><td>[02.05.2026] bahadır çalmandalı servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>24</td><td>[02.05.2026] selim keçelioğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>25</td><td>[02.05.2026] bayram öztürk 2 günlük servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>26</td><td>[02.05.2026] faik şahin servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>27</td><td>[02.05.2026] cemre ağaoğlu servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>28</td><td>[02.05.2026] alper dönmez 2 günlük servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>29</td><td>[02.05.2026] umut can 2 günlük servis  extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>30</td><td>[02.05.2026] şakir sevgi 2 günlükservis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>31</td><td>[02.05.2026] enes dursun servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>32</td><td>[02.05.2026] kerem ersarı servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>33</td><td>[02.05.2026] hüseyin persiyani servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>34</td><td>[02.05.2026] caner gül servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>35</td><td>[02.05.2026] hasan çakmak bar extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>36</td><td>[02.05.2026] deniz dağdeviren servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>37</td><td>[02.05.2026] emre parlak ch</td><td class='tr mo'>3.970,00</td></tr><tr><td>38</td><td>[02.05.2026] kadir bey ch</td><td class='tr mo'>4.030,00</td></tr><tr><td>39</td><td>[02.05.2026] mahmut ch</td><td class='tr mo'>1.390,00</td></tr><tr><td>40</td><td>[02.05.2026] sakir sevgi ch</td><td class='tr mo'>2.120,00</td></tr><tr><td>41</td><td>[02.05.2026] hasan günaydın steward ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>42</td><td>[02.05.2026] ramazan yüce dj ödeme</td><td class='tr mo'>4.250,00</td></tr><tr><td>43</td><td>[02.05.2026] umut yıldırım mutfak mesai ödeme</td><td class='tr mo'>450,00</td></tr><tr><td>44</td><td>[02.05.2026] mehmet acar mutfak extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>45</td><td>[02.05.2026] gül akkuş mayıs ayı extracı güv ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>46</td><td>[02.05.2026] ali mılamayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>47</td><td>[02.05.2026] burak akbay mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>48</td><td>[02.05.2026] ramazan korkmaz mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>49</td><td>[02.05.2026] sefa günebakan mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>50</td><td>[02.05.2026] mehmet soysAL IŞIK nisan ayı extracı güv ödeme</td><td class='tr mo'>8.500,00</td></tr><tr><td>51</td><td>[02.05.2026] hasan günaydın nisan ayı maaş ödeme</td><td class='tr mo'>4.000,00</td></tr><tr><td>52</td><td>[03.05.2026] HASAN GÜNAYDIN STEWARD ÖDEME</td><td class='tr mo'>700,00</td></tr><tr><td>53</td><td>[03.05.2026] İSMAİLEKECİK MUTFAK EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>54</td><td>[03.05.2026] MEHMET AKİF YORULMAZ NİSAN AYI GÜV MAAŞI</td><td class='tr mo'>2.000,00</td></tr><tr><td>55</td><td>[03.05.2026] EKMEK ALIMI</td><td class='tr mo'>195,00</td></tr><tr><td>56</td><td>[03.05.2026] HIRDAVAT ALIŞVERİŞİ</td><td class='tr mo'>719,00</td></tr><tr><td>57</td><td>[03.05.2026] HÜSEYİN MERMER CH</td><td class='tr mo'>375,00</td></tr><tr><td>58</td><td>[03.05.2026] AHMET İSMAİL AYKOL CH</td><td class='tr mo'>2.185,00</td></tr><tr><td>59</td><td>[04.05.2026] UMUT YILDIRIM MESAİ ÖDEME</td><td class='tr mo'>650,00</td></tr><tr><td>60</td><td>[04.05.2026] UMUT YILDIRIM  STEWRD ÖDEME</td><td class='tr mo'>750,00</td></tr><tr><td>61</td><td>[04.05.2026] HASAN ÇAKMAK BAR EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>62</td><td>[05.05.2026] HASAN GÜNAYDIN MUTFAK STEWARD ÖDEME</td><td class='tr mo'>750,00</td></tr><tr><td>63</td><td>[05.05.2026] CAFER AKAR MUTFAK EXTRA ÖDEME</td><td class='tr mo'>1.500,00</td></tr><tr><td>64</td><td>[05.05.2026] NURİ ÇAYIR CH</td><td class='tr mo'>2.703,00</td></tr><tr><td>65</td><td>[06.05.2026] simli karton alımı</td><td class='tr mo'>480,00</td></tr><tr><td>66</td><td>[06.05.2026] silikon hırdavat alımı</td><td class='tr mo'>620,00</td></tr><tr><td>67</td><td>[06.05.2026] sıvı sabun alımı</td><td class='tr mo'>139,90</td></tr><tr><td>68</td><td>[06.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>69</td><td>[06.05.2026] nalan hamarat elektirikli araç dolum ücreti</td><td class='tr mo'>746,50</td></tr><tr><td>70</td><td>[06.05.2026] oğuzhan bey ch</td><td class='tr mo'>6.298,00</td></tr><tr><td>71</td><td>[06.05.2026] ismail ekecik</td><td class='tr mo'>1.000,00</td></tr><tr><td>72</td><td>[07.05.2026] oğuzhan bey sigara alımı</td><td class='tr mo'>450,00</td></tr><tr><td>73</td><td>[08.05.2026] ismail ekeci mutfak extra ödeme</td><td class='tr mo'>1.200,00</td></tr><tr><td>74</td><td>[08.05.2026] hüseyin persiyani servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>75</td><td>[08.05.2026] cemre ağaoğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>76</td><td>[08.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>77</td><td>[09.05.2026] muratduymaz dj ödeme</td><td class='tr mo'>15.000,00</td></tr><tr><td>78</td><td>[09.05.2026] alphan çetinkaya dj ödeme</td><td class='tr mo'>9.250,00</td></tr><tr><td>79</td><td>[09.05.2026] ramzan yüce dj ödeme</td><td class='tr mo'>4.250,00</td></tr><tr><td>80</td><td>[09.05.2026] nalan hamarat doğalgaz ödeme</td><td class='tr mo'>2.190,00</td></tr><tr><td>81</td><td>[09.05.2026] lojman elektirik fatura ödeme</td><td class='tr mo'>811,20</td></tr><tr><td>82</td><td>[09.05.2026] lojman doğalgaz ödeme</td><td class='tr mo'>1.670,00</td></tr><tr><td>83</td><td>[09.05.2026] nalan hamarat internet ödeme</td><td class='tr mo'>525,00</td></tr><tr><td>84</td><td>[09.05.2026] nalan hamarat elektrk ödeme</td><td class='tr mo'>671,65</td></tr><tr><td>85</td><td>[09.05.2026] nalan hamarat elektrikli araç şarj ücretti</td><td class='tr mo'>2.145,31</td></tr><tr><td>86</td><td>[09.05.2026] burak akbay mayıs ayı extracı güvnlik ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>87</td><td>[09.05.2026] ali mila mayıs ayı extracı güvenlik ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>88</td><td>[09.05.2026] sefa günebakan mayıs ayı extracı güvenlik ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>89</td><td>[09.05.2026] ramazan korkmaz mayıs ayı extracı güvenlik ödeme</td><td class='tr mo'>3.300,00</td></tr><tr><td>90</td><td>[09.05.2026] şakir sevgi servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>91</td><td>[09.05.2026] umut can  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>92</td><td>[09.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>93</td><td>[09.05.2026] gizem kesik kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>94</td><td>[09.05.2026] ismail ekecik mutfak extra ödeme</td><td class='tr mo'>1.200,00</td></tr><tr><td>95</td><td>[09.05.2026] hasan ali taşıkırık  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>96</td><td>[09.05.2026] bengüsu hanım ch</td><td class='tr mo'>5.950,00</td></tr><tr><td>97</td><td>[09.05.2026] mahmut tümenci ch</td><td class='tr mo'>2.585,00</td></tr><tr><td>98</td><td>[09.05.2026] tahircan kar ch</td><td class='tr mo'>795,00</td></tr><tr><td>99</td><td>[09.05.2026] veysel karataş ch</td><td class='tr mo'>7.975,00</td></tr><tr><td>100</td><td>[09.05.2026] yasin narko ch</td><td class='tr mo'>4.480,00</td></tr><tr><td>101</td><td>[09.05.2026] hüseyin persiyani servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>102</td><td>[09.05.2026] cemre ağaoğlu  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>103</td><td>[09.05.2026] serhat cerit  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>104</td><td>[09.05.2026] hasan çakmak bar extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>105</td><td>[09.05.2026] emir maghaddam  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>106</td><td>[10.05.2026] buse karaarslan kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>107</td><td>[10.05.2026] burak bey ch</td><td class='tr mo'>2.000,00</td></tr><tr><td>108</td><td>[10.05.2026] lojman kira ve aidat ödeme</td><td class='tr mo'>23.450,00</td></tr><tr><td>109</td><td>[10.05.2026] ekmek alımı</td><td class='tr mo'>195,00</td></tr><tr><td>110</td><td>[11.05.2026] denetimde sigara paketi alınan müşteri sigara ödeme</td><td class='tr mo'>150,00</td></tr><tr><td>111</td><td>[11.05.2026] sıvı sabun alımı</td><td class='tr mo'>479,20</td></tr><tr><td>112</td><td>[11.05.2026] nalan hamarat araç yıkama ücreti</td><td class='tr mo'>700,00</td></tr><tr><td>113</td><td>[12.05.2026] mutfak market alışverişi</td><td class='tr mo'>585,00</td></tr><tr><td>114</td><td>[13.05.2026] celal aktepe temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>115</td><td>[13.05.2026] hüseyin mermer ch</td><td class='tr mo'>1.220,00</td></tr><tr><td>116</td><td>[13.05.2026] bilal bey ch</td><td class='tr mo'>4.750,00</td></tr><tr><td>117</td><td>[13.05.2026] nalan hamarat elektrikli araç şarz ücreti</td><td class='tr mo'>423,97</td></tr><tr><td>118</td><td>[13.05.2026] lojman su faturası ödemesi</td><td class='tr mo'>693,00</td></tr><tr><td>119</td><td>[13.05.2026] nalan hamarat su fatura ödeme</td><td class='tr mo'>155,00</td></tr><tr><td>120</td><td>[14.05.2026] azad bey ch</td><td class='tr mo'>4.950,00</td></tr><tr><td>121</td><td>[14.05.2026] hüsseyin mermer ch</td><td class='tr mo'>1.910,00</td></tr><tr><td>122</td><td>[14.05.2026] ekmek alımı</td><td class='tr mo'>195,00</td></tr><tr><td>123</td><td>[15.05.2026] ismail ekecik mutafk extra ödeme</td><td class='tr mo'>1.200,00</td></tr><tr><td>124</td><td>[15.05.2026] hayrullah sarıcan kalan maaş ödeme</td><td class='tr mo'>10.000,00</td></tr><tr><td>125</td><td>[15.05.2026] buse karaarslan kapı  karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>126</td><td>[15.05.2026] celal aktepe temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>127</td><td>[15.05.2026] mehmet acar kalan maaş ödeme</td><td class='tr mo'>3.925,00</td></tr><tr><td>128</td><td>[15.05.2026] nalan hamarat elektrikli araç dolum bedeli</td><td class='tr mo'>878,40</td></tr><tr><td>129</td><td>[15.05.2026] emir karakuş ch</td><td class='tr mo'>10.955,00</td></tr><tr><td>130</td><td>[15.05.2026] hüseyin mermer ch</td><td class='tr mo'>1.980,00</td></tr><tr><td>131</td><td>[15.05.2026] hasan taşkıran bar extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>132</td><td>[16.05.2026] buse karaarslan kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>133</td><td>[16.05.2026] gizem kesik kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>134</td><td>[16.05.2026] caner gül servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>135</td><td>[16.05.2026] enes dursun servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>136</td><td>[16.05.2026] hüseyin persiyani 2 günlük  servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>137</td><td>[16.05.2026] cemre ağaoğlu 2 günlük servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>138</td><td>[16.05.2026] nurgül karataş servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>139</td><td>[16.05.2026] selim keçelioğluservis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>140</td><td>[16.05.2026] emirmoghaddam servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>141</td><td>[16.05.2026] alper dönmez 2 günlük servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>142</td><td>[16.05.2026] mehmet kar servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>143</td><td>[16.05.2026] faik şahin servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>144</td><td>[16.05.2026] mete eroğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>145</td><td>[16.05.2026] ismail ekecik mutfak extra ödeme</td><td class='tr mo'>1.200,00</td></tr><tr><td>146</td><td>[16.05.2026] hasan taşkıran bar extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>147</td><td>[16.05.2026] celal aktepe temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>148</td><td>[16.05.2026] mehmet soysal ışık mayıs ayı extracı güv ödeme</td><td class='tr mo'>5.000,00</td></tr><tr><td>149</td><td>[16.05.2026] burak akbay mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>150</td><td>[16.05.2026] gül akkuş mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>151</td><td>[16.05.2026] nafizz belek mayıs ayı extracı güv ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>152</td><td>[16.05.2026] reşit karataş mayıs ayı extracı güvenlik ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>153</td><td>[16.05.2026] ramazan korkmaz mayıs ayı extracı güv ödeme</td><td class='tr mo'>3.300,00</td></tr><tr><td>154</td><td>[16.05.2026] murat duymaz dj maaş ödeme</td><td class='tr mo'>15.000,00</td></tr><tr><td>155</td><td>[16.05.2026] hayrullah sarıcan kalan maaş  ödeme</td><td class='tr mo'>12.000,00</td></tr><tr><td>156</td><td>[16.05.2026] alphan çetinkaya dj maaş ödeme</td><td class='tr mo'>9.250,00</td></tr><tr><td>157</td><td>[16.05.2026] ramazan yüce dj maaş ödeme</td><td class='tr mo'>4.250,00</td></tr><tr><td>158</td><td>[16.05.2026] nalan hamarat elektrikli araç dolum ücreti</td><td class='tr mo'>948,47</td></tr><tr><td>159</td><td>[16.05.2026] halil bey ch</td><td class='tr mo'>4.440,00</td></tr><tr><td>160</td><td>[16.05.2026] arda kaancı servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>161</td><td>[16.05.2026] murat dili ballı ch</td><td class='tr mo'>530,00</td></tr><tr><td>162</td><td>[16.05.2026] enes güv ch</td><td class='tr mo'>765,00</td></tr><tr><td>163</td><td>[16.05.2026] duvarcı furkan ch</td><td class='tr mo'>2.010,00</td></tr><tr><td>164</td><td>[16.05.2026] mehmet bildik ch</td><td class='tr mo'>12.255,00</td></tr><tr><td>165</td><td>[16.05.2026] emir karakuş ch</td><td class='tr mo'>795,00</td></tr><tr><td>166</td><td>[16.05.2026] hasan erdoğan servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>167</td><td>[17.05.2026] samet uğuz ch</td><td class='tr mo'>1.000,00</td></tr><tr><td>168</td><td>[17.05.2026] mum alımı</td><td class='tr mo'>390,00</td></tr><tr><td>169</td><td>[17.05.2026] burak akbay mayıs ayı güv extracı ödeme</td><td class='tr mo'>1.100,00</td></tr><tr><td>170</td><td>[17.05.2026] nalan hamarat elektrikli araç dolum bedeli</td><td class='tr mo'>710,64</td></tr><tr><td>171</td><td>[17.05.2026] buse karaarslan kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>172</td><td>[17.05.2026] emir karakuş ch</td><td class='tr mo'>3.500,00</td></tr><tr><td>173</td><td>[17.05.2026] ekmek alımı</td><td class='tr mo'>156,00</td></tr><tr><td>174</td><td>[18.05.2026] parti malzemesi alımı</td><td class='tr mo'>900,00</td></tr><tr><td>175</td><td>[19.05.2026] hırdavat alışverişi</td><td class='tr mo'>200,00</td></tr><tr><td>176</td><td>[19.05.2026] nalan hamarat ev kombi tamir ücreti</td><td class='tr mo'>1.600,00</td></tr><tr><td>177</td><td>[20.05.2026] mehmet bildik ch</td><td class='tr mo'>3.788,00</td></tr><tr><td>178</td><td>[20.05.2026] veysel karataş ch</td><td class='tr mo'>2.150,00</td></tr><tr><td>179</td><td>[20.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>180</td><td>[21.05.2026] mehmet bildik ch</td><td class='tr mo'>3.788,00</td></tr><tr><td>181</td><td>[21.05.2026] veysel karataş ch</td><td class='tr mo'>2.150,00</td></tr><tr><td>182</td><td>[21.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>183</td><td>[22.05.2026] hüseyin persiyani servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>184</td><td>[22.05.2026] cemre ağaoğlu  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>185</td><td>[22.05.2026] caner gül  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>186</td><td>[22.05.2026] mert köse  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>187</td><td>[22.05.2026] berat şanlıoğlu  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>188</td><td>[22.05.2026] emir mogaddam  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>189</td><td>[22.05.2026] furkan ülker  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>190</td><td>[22.05.2026] ömer renklioğlu  servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>191</td><td>[22.05.2026] gizem kesik kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>192</td><td>[22.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>193</td><td>[22.05.2026] hızır matbaa fatura no:HZR2026000000235 broşür basım bedeli</td><td class='tr mo'>2.000,00</td></tr><tr><td>194</td><td>[22.05.2026] hüseyin mermer ch</td><td class='tr mo'>1.655,00</td></tr><tr><td>195</td><td>[23.05.2026] alper dönmez servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>196</td><td>[23.05.2026] berat şanlıoğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>197</td><td>[23.05.2026] caner gül servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>198</td><td>[23.05.2026] hüseyin persiyani servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>199</td><td>[23.05.2026] şakir sevgi servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>200</td><td>[23.05.2026] cemre ağaoğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>201</td><td>[23.05.2026] mete eroğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>202</td><td>[23.05.2026] ömer renklioğlu servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>203</td><td>[23.05.2026] furkan ülker servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>204</td><td>[23.05.2026] emir mogaddam servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>205</td><td>[23.05.2026] hamza erdoğan servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>206</td><td>[23.05.2026] osman dilek temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>207</td><td>[23.05.2026] ismail ekecik mutfak extra ödeme</td><td class='tr mo'>1.200,00</td></tr><tr><td>208</td><td>[23.05.2026] gizem kesik kapı karşılama extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>209</td><td>[23.05.2026] murat duymaz dj ödeme</td><td class='tr mo'>15.000,00</td></tr><tr><td>210</td><td>[23.05.2026] alphan çetinkaya dj ödeme</td><td class='tr mo'>9.250,00</td></tr><tr><td>211</td><td>[23.05.2026] ramazan yüce dj ödeme</td><td class='tr mo'>4.250,00</td></tr><tr><td>212</td><td>[23.05.2026] kadir sirkeci ch</td><td class='tr mo'>14.410,00</td></tr><tr><td>213</td><td>[23.05.2026] ibrahim karayılan ch</td><td class='tr mo'>1.980,00</td></tr><tr><td>214</td><td>[23.05.2026] müşteri ch 2 telefon alındı hesap için</td><td class='tr mo'>17.195,00</td></tr><tr><td>215</td><td>[24.05.2026] ekmek alımı</td><td class='tr mo'>160,00</td></tr><tr><td>216</td><td>[24.05.2026] cavidan gasivom kasa extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>217</td><td>[25.05.2026] furkan ülker 2 günlük servis extra ödeme</td><td class='tr mo'>2.000,00</td></tr><tr><td>218</td><td>[25.05.2026] cavidan gasimov kasa extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>219</td><td>[25.05.2026] nalan hamarat alış veriş</td><td class='tr mo'>460,00</td></tr><tr><td>220</td><td>[27.05.2026] nalan hamarat misafir sigara alımı</td><td class='tr mo'>250,00</td></tr><tr><td>221</td><td>[28.05.2026] halil bey ch</td><td class='tr mo'>700,00</td></tr><tr><td>222</td><td>[29.05.2026] nalan hamarat araç yakıt ücreti</td><td class='tr mo'>1.358,00</td></tr><tr><td>223</td><td>[29.05.2026] nuri bey ch</td><td class='tr mo'>1.185,00</td></tr><tr><td>224</td><td>[29.05.2026] emre öztürk servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>225</td><td>[30.05.2026] HÜSEYİN PERSİYANİ 2 GÜNLÜK SERVİS EXTRA ÖDEME</td><td class='tr mo'>2.000,00</td></tr><tr><td>226</td><td>[30.05.2026] CEMRE AĞAOĞLU SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>227</td><td>[30.05.2026] CANER GÜL SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>228</td><td>[30.05.2026] ALİHAN SARITAŞ SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>229</td><td>[30.05.2026] BAHADIR ÇALMANDAN SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>230</td><td>[30.05.2026] ÖMER ÖZTÜRK SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>231</td><td>[30.05.2026] EMİR MOGHADDAM SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>232</td><td>[30.05.2026] HİLAL ÇOLAK SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>233</td><td>[30.05.2026] SADADEDDİN ERDOĞMUŞ SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>234</td><td>[30.05.2026] ŞAKİR SEVGİ SERVİS EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>235</td><td>[30.05.2026] BAŞAK GÖKTEN KAPI KARŞILAMA EXTRA ÖDEME</td><td class='tr mo'>1.000,00</td></tr><tr><td>236</td><td>[30.05.2026] İSMAİL EKECİK MUTFAK EXTRA ÖDEME</td><td class='tr mo'>1.200,00</td></tr><tr><td>237</td><td>[30.05.2026] cavidan gasimov servis extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>238</td><td>[30.05.2026] ramazan korkmaz mayıs ayı extracıgüv ödeme</td><td class='tr mo'>4.400,00</td></tr><tr><td>239</td><td>[30.05.2026] sefa günebakan mayıs ayı extracı güv ödeme</td><td class='tr mo'>2.200,00</td></tr><tr><td>240</td><td>[30.05.2026] nafiz belek mayıs ayı extracı güv ödeme</td><td class='tr mo'>3.300,00</td></tr><tr><td>241</td><td>[30.05.2026] alphan çetin kaya dj ödeme</td><td class='tr mo'>9.250,00</td></tr><tr><td>242</td><td>[30.05.2026] murat duymaz dj ödeme</td><td class='tr mo'>15.000,00</td></tr><tr><td>243</td><td>[30.05.2026] kemal kaya ch</td><td class='tr mo'>9.760,00</td></tr><tr><td>244</td><td>[30.05.2026] mutfak market alışverişi</td><td class='tr mo'>346,07</td></tr><tr><td>245</td><td>[31.05.2026] CİHA DJ CH</td><td class='tr mo'>530,00</td></tr><tr><td>246</td><td>[31.05.2026] HÜSEYİN MERMER CH</td><td class='tr mo'>750,00</td></tr><tr><td>247</td><td>[31.05.2026] EKMEK ALIMI</td><td class='tr mo'>195,00</td></tr></tbody>
+    <tr class="trow"><td colspan="2">TOPLAM</td><td class="tr mo">570.852,70</td></tr>
+  </table>
+</div>
+</div>
+
+
+<hr>
+
+<!-- BÖLÜM 5 -->
+<div class="sh"><span class="dot r"></span><span class="stt">Cironun Saatlere Göre Dağılımı?</span></div>
+<div class="g21">
+  <div class="card"><div class="ct">Saatlik Ciro — % program hesapladı</div><div class="barchart">
+<div class="barrow">
+  <div class="barlabel">00:00–01:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:22.5%;background:#3a4560"></div>
+  </div>
+  <div class="barpct">%22.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">01:00-02:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:24.3%;background:#3a4560"></div>
+  </div>
+  <div class="barpct">%24.3</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">02:00-03:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:14.4%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%14.4</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">03:00-04:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:4.1%;background:#f5a623"></div>
+  </div>
+  <div class="barpct">%4.1</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">18:00–20:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:1.7%;background:#f5a623"></div>
+  </div>
+  <div class="barpct">%1.7</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">20:00–22:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:4.8%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%4.8</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">22:00–23:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:10.5%;background:#f5a623"></div>
+  </div>
+  <div class="barpct">%10.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">23:00–00:00</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:17.8%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%17.8</div>
+</div></div></div>
+  <div class="card">
+    <div class="ct">Saatlik % Dağılımı</div>
+    <table>
+      <thead><tr><th>Saat</th><th class="tr">&#8378;</th><th class="tr">%</th></tr></thead>
+      <tbody><tr><td>00:00–01:00</td><td class='tr mo' style='font-size:11px'>1.856.236,37</td><td class='tr'><span class='badge bwn'>%22.5</span></td></tr><tr><td>01:00-02:00</td><td class='tr mo' style='font-size:11px'>2.008.931,33</td><td class='tr'><span class='badge bng'>%24.3</span></td></tr><tr><td>02:00-03:00</td><td class='tr mo' style='font-size:11px'>1.187.523,29</td><td class='tr'><span class='badge bif'>%14.4</span></td></tr><tr><td>03:00-04:00</td><td class='tr mo' style='font-size:11px'>334.396,97</td><td class='tr'><span class='badge bif'>%4.1</span></td></tr><tr><td>18:00–20:00</td><td class='tr mo' style='font-size:11px'>138.558,04</td><td class='tr'><span class='badge bif'>%1.7</span></td></tr><tr><td>20:00–22:00</td><td class='tr mo' style='font-size:11px'>396.070,10</td><td class='tr'><span class='badge bif'>%4.8</span></td></tr><tr><td>22:00–23:00</td><td class='tr mo' style='font-size:11px'>864.296,14</td><td class='tr'><span class='badge bif'>%10.5</span></td></tr><tr><td>23:00–00:00</td><td class='tr mo' style='font-size:11px'>1.464.746,74</td><td class='tr'><span class='badge bwn'>%17.8</span></td></tr><tr class='trow'><td><strong>TOPLAM</strong></td><td class='tr mo'><strong>8.250.758,98</strong></td><td class='tr'><span class='badge bok'>%100</span></td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<hr>
+<div class="uy-blok dng"><div class="uy-blok-t r">&#9888; İncelenmeli — 3 Uyumsuzluk</div>
+<div class="uy-item">
+  <div class="uy-ic">1️⃣</div>
+  <div class="uy-txt">
+    <div class="uy-bas">Hasılat Farkı — Kasa Raporu ≠ Gece Raporu</div>
+    <div class="uy-deg">Kasa Net: 9.784.973,76 &#8378;<br>Gece Ciro: 8.250.888,43 &#8378;<br>FARK: 1.534.085,33 &#8378;</div>
+    <div class="uy-det">Gece Raporu ham ciro, Kasa Raporu tahsilat bazlı gerçek geliri yansıtır.</div>
+    <div class='uy-ak'>→ Aksiyon: İkram + iptal kalemlerini Kasa Raporu ile karşılaştırın.</div>
+  </div>
+  <span class="badge bng" style="flex-shrink:0">İncelenmeli</span>
+</div>
+<div class="uy-item">
+  <div class="uy-ic">2️⃣</div>
+  <div class="uy-txt">
+    <div class="uy-bas">Kategori Toplamı ≠ Gece Raporu Cirosu</div>
+    <div class="uy-deg">Kategori: 10.269.943,79 &#8378;<br>Ciro: 8.250.888,43 &#8378;<br>FARK: 2.019.055,36 &#8378;</div>
+    <div class="uy-det">Bazı satışlar kategoriye atanmamış olabilir.</div>
+    <div class='uy-ak'>→ Aksiyon: Kasa programı kategori Z raporu ile karşılaştırın.</div>
+  </div>
+  <span class="badge bwn" style="flex-shrink:0">İncelenmeli</span>
+</div>
+<div class="uy-item">
+  <div class="uy-ic">3️⃣</div>
+  <div class="uy-txt">
+    <div class="uy-bas">Nakit Tahsilat Farkı</div>
+    <div class="uy-deg">Kasa Nakit: 88.081,72 &#8378;<br>Gece Nakit: 1.347.970,89 &#8378;<br>FARK: 1.259.889,17 &#8378;</div>
+    <div class="uy-det">POS ile kasiyer beyanı arasında fark olabilir.</div>
+    <div class='uy-ak'>→ Aksiyon: Fiziksel kasa sayım fişiyle karşılaştırın.</div>
+  </div>
+  <span class="badge bwn" style="flex-shrink:0">İncelenmeli</span>
+</div></div><div class="uy-blok okk"><div class="uy-blok-t g">&#10003; Uyumlu — 1 Kontrol</div>
+<div class="uy-item">
+  <div class="uy-ic">✓</div>
+  <div class="uy-txt">
+    <div class="uy-bas">Garanti KKT Çapraz Doğrulama</div>
+    <div class="uy-deg">Garanti KK Toplam: 8.371.024,00 &#8378;</div>
+    <div class="uy-det">12:00 önce 631.337,00 &#8378; + sonra 7.739.687,00 &#8378;</div>
+    
+  </div>
+  <span class="badge bok" style="flex-shrink:0">Uyumlu</span>
+</div></div>
+
+<div class="sh"><span class="dot g"></span><span class="stt">Günlük Dağılım — 30 Gün</span></div>
+<div style="background:#fff;border-radius:10px;border:1px solid #e2e8f0;overflow-x:auto;margin-bottom:16px">
+  <div style="background:#f0f4f8;padding:8px 12px;font-size:11px;color:#6b7280;display:flex;gap:24px;flex-wrap:wrap">
+    <span>Toplam Net: <b style="color:#16a34a">9.784.974 ₺</b></span>
+    <span>Günlük Ort: <b style="color:#2563eb">326.166 ₺</b></span>
+    <span>Toplam KK: <b style="color:#0d9488">8.371.024 ₺</b></span>
+  </div>
+  <table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead>
+      <tr style="background:#e8edf3;color:#374151">
+        <th style="padding:8px;text-align:left">Tarih</th>
+        <th style="padding:8px;text-align:right">Brüt Hasılat</th>
+        <th style="padding:8px;text-align:right;color:#dc2626">İndirimler T.</th>
+        <th style="padding:8px;text-align:right;color:#16a34a">Net Hasılat</th>
+        <th style="padding:8px;text-align:right">TL Nakit</th>
+        <th style="padding:8px;text-align:right">Euro (₺)</th>
+        <th style="padding:8px;text-align:right">CHF (₺)</th>
+        <th style="padding:8px;text-align:right;color:#0d9488">Garanti KK</th>
+        <th style="padding:8px;text-align:right">Yemek Sepeti</th>
+        <th style="padding:8px;text-align:right">İbana Havale</th>
+      </tr>
+    </thead>
+    <tbody><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">01.05.2026</td><td style="padding:6px 8px;text-align:right">500.646</td><td style="padding:6px 8px;text-align:right;color:#dc2626">21.133</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">447.951</td><td style="padding:6px 8px;text-align:right">73.082</td><td style="padding:6px 8px;text-align:right">10.500</td><td style="padding:6px 8px;text-align:right">4.500</td><td style="padding:6px 8px;text-align:right;color:#0d9488">359.869</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">02.05.2026</td><td style="padding:6px 8px;text-align:right">1.045.142</td><td style="padding:6px 8px;text-align:right;color:#dc2626">26.909</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">952.063</td><td style="padding:6px 8px;text-align:right">97.529</td><td style="padding:6px 8px;text-align:right">5.200</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">849.334</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">03.05.2026</td><td style="padding:6px 8px;text-align:right">226.053</td><td style="padding:6px 8px;text-align:right;color:#dc2626">615</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">214.665</td><td style="padding:6px 8px;text-align:right">25.715</td><td style="padding:6px 8px;text-align:right">8.998</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">179.952</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">04.05.2026</td><td style="padding:6px 8px;text-align:right">135.975</td><td style="padding:6px 8px;text-align:right;color:#dc2626">8.920</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">109.542</td><td style="padding:6px 8px;text-align:right">3.387</td><td style="padding:6px 8px;text-align:right">5.308</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">106.155</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">05.05.2026</td><td style="padding:6px 8px;text-align:right">141.826</td><td style="padding:6px 8px;text-align:right;color:#dc2626">4.097</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">129.025</td><td style="padding:6px 8px;text-align:right">2.573</td><td style="padding:6px 8px;text-align:right">6.022</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">120.431</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">06.05.2026</td><td style="padding:6px 8px;text-align:right">140.638</td><td style="padding:6px 8px;text-align:right;color:#dc2626">12.209</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">113.651</td><td style="padding:6px 8px;text-align:right">9.808</td><td style="padding:6px 8px;text-align:right">4.945</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">98.898</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">07.05.2026</td><td style="padding:6px 8px;text-align:right">166.024</td><td style="padding:6px 8px;text-align:right;color:#dc2626">18.322</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">140.582</td><td style="padding:6px 8px;text-align:right">16.893</td><td style="padding:6px 8px;text-align:right">5.890</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">117.799</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">08.05.2026</td><td style="padding:6px 8px;text-align:right">488.026</td><td style="padding:6px 8px;text-align:right;color:#dc2626">10.577</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">437.990</td><td style="padding:6px 8px;text-align:right">63.194</td><td style="padding:6px 8px;text-align:right">17.847</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">356.949</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">09.05.2026</td><td style="padding:6px 8px;text-align:right">946.358</td><td style="padding:6px 8px;text-align:right;color:#dc2626">30.564</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">871.377</td><td style="padding:6px 8px;text-align:right">84.216</td><td style="padding:6px 8px;text-align:right">37.484</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">749.677</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">10.05.2026</td><td style="padding:6px 8px;text-align:right">231.386</td><td style="padding:6px 8px;text-align:right;color:#dc2626">3.707</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">212.461</td><td style="padding:6px 8px;text-align:right">22.981</td><td style="padding:6px 8px;text-align:right">9.023</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">180.457</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">11.05.2026</td><td style="padding:6px 8px;text-align:right">175.632</td><td style="padding:6px 8px;text-align:right;color:#dc2626">5.751</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">160.642</td><td style="padding:6px 8px;text-align:right">21.850</td><td style="padding:6px 8px;text-align:right">6.609</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">132.183</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">12.05.2026</td><td style="padding:6px 8px;text-align:right">204.252</td><td style="padding:6px 8px;text-align:right;color:#dc2626">5.245</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">182.549</td><td style="padding:6px 8px;text-align:right">8.632</td><td style="padding:6px 8px;text-align:right">8.282</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">165.636</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">13.05.2026</td><td style="padding:6px 8px;text-align:right">189.620</td><td style="padding:6px 8px;text-align:right;color:#dc2626">4.280</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">173.862</td><td style="padding:6px 8px;text-align:right">31.192</td><td style="padding:6px 8px;text-align:right">7.950</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">134.720</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">14.05.2026</td><td style="padding:6px 8px;text-align:right">231.277</td><td style="padding:6px 8px;text-align:right;color:#dc2626">4.352</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">220.221</td><td style="padding:6px 8px;text-align:right">49.905</td><td style="padding:6px 8px;text-align:right">8.110</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">162.206</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">15.05.2026</td><td style="padding:6px 8px;text-align:right">471.695</td><td style="padding:6px 8px;text-align:right;color:#dc2626">14.016</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">425.021</td><td style="padding:6px 8px;text-align:right">29.492</td><td style="padding:6px 8px;text-align:right">18.835</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">376.695</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">16.05.2026</td><td style="padding:6px 8px;text-align:right">979.132</td><td style="padding:6px 8px;text-align:right;color:#dc2626">20.767</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">885.245</td><td style="padding:6px 8px;text-align:right">102.412</td><td style="padding:6px 8px;text-align:right">1.040</td><td style="padding:6px 8px;text-align:right">9.000</td><td style="padding:6px 8px;text-align:right;color:#0d9488">772.793</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">17.05.2026</td><td style="padding:6px 8px;text-align:right">191.327</td><td style="padding:6px 8px;text-align:right;color:#dc2626">5.592</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">179.226</td><td style="padding:6px 8px;text-align:right">24.076</td><td style="padding:6px 8px;text-align:right">7.388</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">147.762</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">18.05.2026</td><td style="padding:6px 8px;text-align:right">269.926</td><td style="padding:6px 8px;text-align:right;color:#dc2626">2.135</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">258.977</td><td style="padding:6px 8px;text-align:right">39.701</td><td style="padding:6px 8px;text-align:right">10.442</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">208.835</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">19.05.2026</td><td style="padding:6px 8px;text-align:right">262.422</td><td style="padding:6px 8px;text-align:right;color:#dc2626">2.710</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">245.649</td><td style="padding:6px 8px;text-align:right">19.003</td><td style="padding:6px 8px;text-align:right">10.793</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">215.854</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">20.05.2026</td><td style="padding:6px 8px;text-align:right">262.677</td><td style="padding:6px 8px;text-align:right;color:#dc2626">15.290</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">241.938</td><td style="padding:6px 8px;text-align:right">39.961</td><td style="padding:6px 8px;text-align:right">2.650</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">199.327</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">21.05.2026</td><td style="padding:6px 8px;text-align:right">262.677</td><td style="padding:6px 8px;text-align:right;color:#dc2626">15.290</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">241.938</td><td style="padding:6px 8px;text-align:right">39.961</td><td style="padding:6px 8px;text-align:right">2.650</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">199.327</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">22.05.2026</td><td style="padding:6px 8px;text-align:right">432.084</td><td style="padding:6px 8px;text-align:right;color:#dc2626">16.098</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">399.302</td><td style="padding:6px 8px;text-align:right">25.531</td><td style="padding:6px 8px;text-align:right">17.799</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">355.973</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">23.05.2026</td><td style="padding:6px 8px;text-align:right">820.757</td><td style="padding:6px 8px;text-align:right;color:#dc2626">29.917</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">741.154</td><td style="padding:6px 8px;text-align:right">133.068</td><td style="padding:6px 8px;text-align:right">28.956</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">579.129</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">24.05.2026</td><td style="padding:6px 8px;text-align:right">248.000</td><td style="padding:6px 8px;text-align:right;color:#dc2626">1.827</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">234.375</td><td style="padding:6px 8px;text-align:right">11.403</td><td style="padding:6px 8px;text-align:right">10.618</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">212.354</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">25.05.2026</td><td style="padding:6px 8px;text-align:right">227.283</td><td style="padding:6px 8px;text-align:right;color:#dc2626">0</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">225.659</td><td style="padding:6px 8px;text-align:right">4.983</td><td style="padding:6px 8px;text-align:right">10.508</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">210.167</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">27.05.2026</td><td style="padding:6px 8px;text-align:right">148.065</td><td style="padding:6px 8px;text-align:right;color:#dc2626">3.685</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">135.252</td><td style="padding:6px 8px;text-align:right">7.233</td><td style="padding:6px 8px;text-align:right">6.096</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">121.923</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">28.05.2026</td><td style="padding:6px 8px;text-align:right">313.362</td><td style="padding:6px 8px;text-align:right;color:#dc2626">8.042</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">290.457</td><td style="padding:6px 8px;text-align:right">11.976</td><td style="padding:6px 8px;text-align:right">13.261</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">265.220</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">29.05.2026</td><td style="padding:6px 8px;text-align:right">221.646</td><td style="padding:6px 8px;text-align:right;color:#dc2626">1.220</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">207.379</td><td style="padding:6px 8px;text-align:right">32.365</td><td style="padding:6px 8px;text-align:right">8.334</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">166.680</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#f8fafc"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">30.05.2026</td><td style="padding:6px 8px;text-align:right">623.501</td><td style="padding:6px 8px;text-align:right;color:#dc2626">17.919</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">579.379</td><td style="padding:6px 8px;text-align:right">60.492</td><td style="padding:6px 8px;text-align:right">10.400</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">508.487</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr><tr style="background:#ffffff"><td style="padding:6px 8px;font-weight:600;color:#2563eb;white-space:nowrap">31.05.2026</td><td style="padding:6px 8px;text-align:right">137.846</td><td style="padding:6px 8px;text-align:right;color:#dc2626">3.818</td><td style="padding:6px 8px;text-align:right;color:#16a34a;font-weight:700">127.441</td><td style="padding:6px 8px;text-align:right">5.397</td><td style="padding:6px 8px;text-align:right">5.812</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right;color:#0d9488">116.232</td><td style="padding:6px 8px;text-align:right">0</td><td style="padding:6px 8px;text-align:right">0</td></tr></tbody>
+    <tfoot>
+      <tr style="background:#e8edf3;font-weight:700">
+        <td style="padding:8px">TOPLAM (30 gün)</td>
+        <td style="padding:8px;text-align:right">10.695.256</td>
+        <td style="padding:8px;text-align:right;color:#dc2626">315.006</td>
+        <td style="padding:8px;text-align:right;color:#16a34a">9.784.974</td>
+        <td style="padding:8px;text-align:right">1.098.009</td>
+        <td style="padding:8px;text-align:right">307.748</td>
+        <td style="padding:8px;text-align:right">13.500</td>
+        <td style="padding:8px;text-align:right;color:#0d9488">8.371.024</td>
+        <td style="padding:8px;text-align:right">0</td>
+        <td style="padding:8px;text-align:right">0</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<div class="rfooter">XR LTD &nbsp;&#183;&nbsp; 01.05.2026 — 31.05.2026 Aylık Özet (30 gün) — 01.05.2026 / 31.05.2026 &nbsp;&#183;&nbsp; Bu rapor yalnızca görüntüleme amaçlıdır.</div>
+</div>
+
+<script>
+function toggleMasraf(){var el=document.getElementById('mlist');if(el)el.style.display=el.style.display==='none'?'block':'none';}
+function _fmt(v){if(typeof v!=='number')return v||'0';var n=Math.round(v*100);var dec=String(n%100);if(dec.length<2)dec='0'+dec;var s=String(Math.floor(n/100));var r='';for(var i=0;i<s.length;i++){if(i>0&&(s.length-i)%3===0)r+='.';r+=s[i];}return r+','+dec;}
+function _fmtI(v){if(typeof v!=='number')return '0';var s=String(Math.round(v));var r='';for(var i=0;i<s.length;i++){if(i>0&&(s.length-i)%3===0)r+='.';r+=s[i];}return r;}
+window.addEventListener('DOMContentLoaded',function(){var je=document.getElementById('rapor-veri');if(!je)return;try{var d=JSON.parse(je.textContent);var set=function(id,val){var e=document.getElementById(id);if(e)e.textContent=val;};set('kap_tl',_fmt(d.kapanis_tl)+' ₺');set('kap_eur',_fmtI(d.kapanis_euro)+' €');set('kap_usd',_fmtI(d.kapanis_usd)+' $');set('kap_gbp',_fmtI(d.kapanis_gbp)+' £');set('kap_tahsilat',_fmt(d.nakit_toplam||d.tahsilat_nakit||d.tl_nakit||0));}catch(ex){}});
+function tediyeExcel(){var je=document.getElementById('rapor-veri');if(!je){alert('Veri yok');return;}try{var d=JSON.parse(je.textContent);var f=function(v){return _fmt(v);};var NL=String.fromCharCode(10);var csv='﻿';csv+='TEDIYE LISTESI'+NL+'Tarih: '+(d.tarih||'')+NL+NL;csv+='#;Aciklama;Tutar (TL)'+NL;if(d.tediyeler&&d.tediyeler.length){for(var i=0;i<d.tediyeler.length;i++){var t=d.tediyeler[i];csv+=(i+1)+';'+t.ad+';'+f(t.tutar)+NL;}csv+=NL+'TOPLAM;;'+f(d.tediye_toplam||0)+NL;}var a=document.createElement('a');var tr=(d.tarih||'').replace(/[. ]+/g,'_');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='tediye_'+tr+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){if(a.parentNode)a.parentNode.removeChild(a);},200);}catch(ex){alert('Hata: '+ex.message);}}
+function tahsilatExcel(){var je=document.getElementById('rapor-veri');if(!je){alert('Veri yok');return;}try{var d=JSON.parse(je.textContent);var f=function(v){return _fmt(v);};var NL=String.fromCharCode(10);var csv='﻿';csv+='NAKIT TAHSILAT'+NL+'Tarih: '+(d.tarih||'')+NL+NL;csv+='TAHSILAT YONTEMI;TUTAR (TL)'+NL;csv+='TL Nakit (Z Raporu);'+f(d.tl_nakit||0)+NL;csv+='Euro ('+(d.euro_adet||0)+' x '+(d.euro_kur||0)+');'+f(d.euro_tl||0)+NL;csv+='CHF ('+(d.chf_adet||0)+' x '+(d.chf_kur||0)+');'+f(d.chf_tl||0)+NL;csv+='Garanti KK;'+f((d.garanti_once||0)+(d.garanti_sonra||0))+NL;csv+='Yemeksepeti;'+f(d.yemeksepeti||0)+NL;csv+='IBAN Havale;'+f(d.iban_havale||0)+NL;var top=(d.tl_nakit||0)+(d.euro_tl||0)+(d.chf_tl||0)+(d.garanti_once||0)+(d.garanti_sonra||0)+(d.yemeksepeti||0)+(d.iban_havale||0);csv+='GENEL TOPLAM;'+f(top)+NL+NL;csv+='KASA KAPANIS'+NL;csv+='Turk Lirasi;'+f(d.kapanis_tl||0)+NL;csv+='Euro;'+(d.kapanis_euro||0)+NL;csv+='Dolar;'+(d.kapanis_usd||0)+NL;csv+='Sterlin;'+(d.kapanis_gbp||0)+NL;if(d.gunluk_dagilim&&d.gunluk_dagilim.length>1){csv+=NL+'GUNLUK DAGILIM'+NL+'Tarih;Net;KK;Nakit;Brut'+NL;for(var g=0;g<d.gunluk_dagilim.length;g++){var r=d.gunluk_dagilim[g];csv+=r[0]+';'+f(r[1])+';'+f(r[2])+';'+f(r[3])+';'+f(r[4])+NL;}}var a=document.createElement('a');var tr=(d.tarih||'').replace(/[. ]+/g,'_');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='tahsilat_'+tr+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){if(a.parentNode)a.parentNode.removeChild(a);},200);}catch(ex){alert('Hata: '+ex.message);}}
+</script>
+
+</body>
+<script id="rapor-veri" type="application/json">{"tarih": "01.05.2026 — 31.05.2026", "brut_satis": 10695255.8, "net_hasilat": 9784973.76, "ikram": 591336.7999999998, "iptal_iade": 193230.15000000002, "indirim": 121775.89000000001, "tl_nakit": 1098009.1599999992, "euro_adet": 777.1499999999999, "euro_kur": 116232.0, "euro_tl": 307748.35, "chf_adet": 300.0, "chf_kur": 0.0, "chf_tl": 13500.0, "garanti_once": 631337.0, "garanti_sonra": 7739687.0, "yemeksepeti": 0.0, "iban_havale": 0.0, "tahsilat_nakit": 88081.72, "nakit_toplam": 1419257.5099999993, "tediye_toplam": 570852.7, "devir_tl": 141547.18, "kapanis_tl": 162700.51, "kapanis_euro": 355.0, "kapanis_usd": 100.0, "kapanis_gbp": 5.0, "kategoriler": [{"ad": "Ağır Alkol", "tutar": 5428095.2299999995}, {"ad": "Bira", "tutar": 2266795.1899999995}, {"ad": "Soft / Diğer", "tutar": 1274327.6699999997}, {"ad": "Kokteyl", "tutar": 693822.8199999998}, {"ad": "Yemek", "tutar": 377759.07}, {"ad": "Soft / Diğer/çerez/maytap", "tutar": 158611.21}, {"ad": "Şarap", "tutar": 36452.19}, {"ad": "Soft / Diğer/maytap/çerez", "tutar": 34080.41}], "tediyeler": [{"ad": "[01.05.2026] OSMAN DİLEK TEMİZLİK ÖDEME", "tutar": 1000.0}, {"ad": "[01.05.2026] UMUT YILDIRIM MESAİ ÖDEME", "tutar": 900.0}, {"ad": "[01.05.2026] GİZEM KESİK KAPI KARŞILAMA EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[01.05.2026] MEHMET ACAR MUTFAK EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[01.05.2026] NALAN HANIM ARAÇ YIKAMA BEDELİ", "tutar": 600.0}, {"ad": "[01.05.2026] HIRDAVAT ALIŞVERİŞİ", "tutar": 350.0}, {"ad": "[01.05.2026] ALİ CİHAD CÖRÜT NİSAN AYI MAAŞ AVANSI", "tutar": 5000.0}, {"ad": "[01.05.2026] KEVSER HANIM CH", "tutar": 8775.0}, {"ad": "[01.05.2026] ALİMÜNYUM KÜLLÜK ALIMI", "tutar": 925.0}, {"ad": "[01.05.2026] KUMAŞ PARFÜM ALIMI", "tutar": 170.0}, {"ad": "[01.05.2026] EKMEK ALIMI", "tutar": 154.95}, {"ad": "[01.05.2026] HASAN GÜNAYDIN 2 GÜNLÜK STEWARD ÖDEME", "tutar": 1800.0}, {"ad": "[01.05.2026] CEMRE AĞAOĞLU 2 GÜNLÜK SERVİS EXTRA ÖDEME", "tutar": 2000.0}, {"ad": "[01.05.2026] HÜSEYİN PERSİYANİ SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[01.05.2026] ENES DURSUN 2 GÜNLÜK SERVİS EXTRA ÖDEME", "tutar": 2000.0}, {"ad": "[01.05.2026] PERSONEL YEMEK ÜCRETİ", "tutar": 1440.0}, {"ad": "[01.05.2026] NURİ AVCI NİSAN MAAŞ  AVANSI", "tutar": 20000.0}, {"ad": "[01.05.2026] 34GFV509 PLAKALI ARAÇ YAKIT ALIMI", "tutar": 2853.44}, {"ad": "[01.05.2026] MASTER FOTOKOPİ MAS 2026000000187 NL FT ÖDEME", "tutar": 960.0}, {"ad": "[02.05.2026] osman dilek aykol temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] buse karaarslan kapıkarşılma extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] gizem kesik kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] bahadır çalmandalı servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] selim keçelioğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] bayram öztürk 2 günlük servis extra ödeme", "tutar": 2000.0}, {"ad": "[02.05.2026] faik şahin servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] cemre ağaoğlu servis extra ödeme", "tutar": 2000.0}, {"ad": "[02.05.2026] alper dönmez 2 günlük servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] umut can 2 günlük servis  extra ödeme", "tutar": 2000.0}, {"ad": "[02.05.2026] şakir sevgi 2 günlükservis extra ödeme", "tutar": 2000.0}, {"ad": "[02.05.2026] enes dursun servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] kerem ersarı servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] hüseyin persiyani servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] caner gül servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] hasan çakmak bar extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] deniz dağdeviren servis extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] emre parlak ch", "tutar": 3970.0}, {"ad": "[02.05.2026] kadir bey ch", "tutar": 4030.0}, {"ad": "[02.05.2026] mahmut ch", "tutar": 1390.0}, {"ad": "[02.05.2026] sakir sevgi ch", "tutar": 2120.0}, {"ad": "[02.05.2026] hasan günaydın steward ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] ramazan yüce dj ödeme", "tutar": 4250.0}, {"ad": "[02.05.2026] umut yıldırım mutfak mesai ödeme", "tutar": 450.0}, {"ad": "[02.05.2026] mehmet acar mutfak extra ödeme", "tutar": 1000.0}, {"ad": "[02.05.2026] gül akkuş mayıs ayı extracı güv ödeme", "tutar": 2000.0}, {"ad": "[02.05.2026] ali mılamayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[02.05.2026] burak akbay mayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[02.05.2026] ramazan korkmaz mayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[02.05.2026] sefa günebakan mayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[02.05.2026] mehmet soysAL IŞIK nisan ayı extracı güv ödeme", "tutar": 8500.0}, {"ad": "[02.05.2026] hasan günaydın nisan ayı maaş ödeme", "tutar": 4000.0}, {"ad": "[03.05.2026] HASAN GÜNAYDIN STEWARD ÖDEME", "tutar": 700.0}, {"ad": "[03.05.2026] İSMAİLEKECİK MUTFAK EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[03.05.2026] MEHMET AKİF YORULMAZ NİSAN AYI GÜV MAAŞI", "tutar": 2000.0}, {"ad": "[03.05.2026] EKMEK ALIMI", "tutar": 195.0}, {"ad": "[03.05.2026] HIRDAVAT ALIŞVERİŞİ", "tutar": 719.0}, {"ad": "[03.05.2026] HÜSEYİN MERMER CH", "tutar": 375.0}, {"ad": "[03.05.2026] AHMET İSMAİL AYKOL CH", "tutar": 2185.0}, {"ad": "[04.05.2026] UMUT YILDIRIM MESAİ ÖDEME", "tutar": 650.0}, {"ad": "[04.05.2026] UMUT YILDIRIM  STEWRD ÖDEME", "tutar": 750.0}, {"ad": "[04.05.2026] HASAN ÇAKMAK BAR EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[05.05.2026] HASAN GÜNAYDIN MUTFAK STEWARD ÖDEME", "tutar": 750.0}, {"ad": "[05.05.2026] CAFER AKAR MUTFAK EXTRA ÖDEME", "tutar": 1500.0}, {"ad": "[05.05.2026] NURİ ÇAYIR CH", "tutar": 2703.0}, {"ad": "[06.05.2026] simli karton alımı", "tutar": 480.0}, {"ad": "[06.05.2026] silikon hırdavat alımı", "tutar": 620.0}, {"ad": "[06.05.2026] sıvı sabun alımı", "tutar": 139.9}, {"ad": "[06.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[06.05.2026] nalan hamarat elektirikli araç dolum ücreti", "tutar": 746.5}, {"ad": "[06.05.2026] oğuzhan bey ch", "tutar": 6298.0}, {"ad": "[06.05.2026] ismail ekecik", "tutar": 1000.0}, {"ad": "[07.05.2026] oğuzhan bey sigara alımı", "tutar": 450.0}, {"ad": "[08.05.2026] ismail ekeci mutfak extra ödeme", "tutar": 1200.0}, {"ad": "[08.05.2026] hüseyin persiyani servis extra ödeme", "tutar": 1000.0}, {"ad": "[08.05.2026] cemre ağaoğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[08.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] muratduymaz dj ödeme", "tutar": 15000.0}, {"ad": "[09.05.2026] alphan çetinkaya dj ödeme", "tutar": 9250.0}, {"ad": "[09.05.2026] ramzan yüce dj ödeme", "tutar": 4250.0}, {"ad": "[09.05.2026] nalan hamarat doğalgaz ödeme", "tutar": 2190.0}, {"ad": "[09.05.2026] lojman elektirik fatura ödeme", "tutar": 811.2}, {"ad": "[09.05.2026] lojman doğalgaz ödeme", "tutar": 1670.0}, {"ad": "[09.05.2026] nalan hamarat internet ödeme", "tutar": 525.0}, {"ad": "[09.05.2026] nalan hamarat elektrk ödeme", "tutar": 671.65}, {"ad": "[09.05.2026] nalan hamarat elektrikli araç şarj ücretti", "tutar": 2145.31}, {"ad": "[09.05.2026] burak akbay mayıs ayı extracı güvnlik ödeme", "tutar": 1100.0}, {"ad": "[09.05.2026] ali mila mayıs ayı extracı güvenlik ödeme", "tutar": 1100.0}, {"ad": "[09.05.2026] sefa günebakan mayıs ayı extracı güvenlik ödeme", "tutar": 1100.0}, {"ad": "[09.05.2026] ramazan korkmaz mayıs ayı extracı güvenlik ödeme", "tutar": 3300.0}, {"ad": "[09.05.2026] şakir sevgi servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] umut can  servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] gizem kesik kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] ismail ekecik mutfak extra ödeme", "tutar": 1200.0}, {"ad": "[09.05.2026] hasan ali taşıkırık  servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] bengüsu hanım ch", "tutar": 5950.0}, {"ad": "[09.05.2026] mahmut tümenci ch", "tutar": 2585.0}, {"ad": "[09.05.2026] tahircan kar ch", "tutar": 795.0}, {"ad": "[09.05.2026] veysel karataş ch", "tutar": 7975.0}, {"ad": "[09.05.2026] yasin narko ch", "tutar": 4480.0}, {"ad": "[09.05.2026] hüseyin persiyani servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] cemre ağaoğlu  servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] serhat cerit  servis extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] hasan çakmak bar extra ödeme", "tutar": 1000.0}, {"ad": "[09.05.2026] emir maghaddam  servis extra ödeme", "tutar": 1000.0}, {"ad": "[10.05.2026] buse karaarslan kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[10.05.2026] burak bey ch", "tutar": 2000.0}, {"ad": "[10.05.2026] lojman kira ve aidat ödeme", "tutar": 23450.0}, {"ad": "[10.05.2026] ekmek alımı", "tutar": 195.0}, {"ad": "[11.05.2026] denetimde sigara paketi alınan müşteri sigara ödeme", "tutar": 150.0}, {"ad": "[11.05.2026] sıvı sabun alımı", "tutar": 479.2}, {"ad": "[11.05.2026] nalan hamarat araç yıkama ücreti", "tutar": 700.0}, {"ad": "[12.05.2026] mutfak market alışverişi", "tutar": 585.0}, {"ad": "[13.05.2026] celal aktepe temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[13.05.2026] hüseyin mermer ch", "tutar": 1220.0}, {"ad": "[13.05.2026] bilal bey ch", "tutar": 4750.0}, {"ad": "[13.05.2026] nalan hamarat elektrikli araç şarz ücreti", "tutar": 423.97}, {"ad": "[13.05.2026] lojman su faturası ödemesi", "tutar": 693.0}, {"ad": "[13.05.2026] nalan hamarat su fatura ödeme", "tutar": 155.0}, {"ad": "[14.05.2026] azad bey ch", "tutar": 4950.0}, {"ad": "[14.05.2026] hüsseyin mermer ch", "tutar": 1910.0}, {"ad": "[14.05.2026] ekmek alımı", "tutar": 195.0}, {"ad": "[15.05.2026] ismail ekecik mutafk extra ödeme", "tutar": 1200.0}, {"ad": "[15.05.2026] hayrullah sarıcan kalan maaş ödeme", "tutar": 10000.0}, {"ad": "[15.05.2026] buse karaarslan kapı  karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[15.05.2026] celal aktepe temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[15.05.2026] mehmet acar kalan maaş ödeme", "tutar": 3925.0}, {"ad": "[15.05.2026] nalan hamarat elektrikli araç dolum bedeli", "tutar": 878.4}, {"ad": "[15.05.2026] emir karakuş ch", "tutar": 10955.0}, {"ad": "[15.05.2026] hüseyin mermer ch", "tutar": 1980.0}, {"ad": "[15.05.2026] hasan taşkıran bar extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] buse karaarslan kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] gizem kesik kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] caner gül servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] enes dursun servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] hüseyin persiyani 2 günlük  servis extra ödeme", "tutar": 2000.0}, {"ad": "[16.05.2026] cemre ağaoğlu 2 günlük servis extra ödeme", "tutar": 2000.0}, {"ad": "[16.05.2026] nurgül karataş servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] selim keçelioğluservis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] emirmoghaddam servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] alper dönmez 2 günlük servis extra ödeme", "tutar": 2000.0}, {"ad": "[16.05.2026] mehmet kar servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] faik şahin servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] mete eroğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] ismail ekecik mutfak extra ödeme", "tutar": 1200.0}, {"ad": "[16.05.2026] hasan taşkıran bar extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] celal aktepe temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] mehmet soysal ışık mayıs ayı extracı güv ödeme", "tutar": 5000.0}, {"ad": "[16.05.2026] burak akbay mayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[16.05.2026] gül akkuş mayıs ayı extracı güv ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] nafizz belek mayıs ayı extracı güv ödeme", "tutar": 1100.0}, {"ad": "[16.05.2026] reşit karataş mayıs ayı extracı güvenlik ödeme", "tutar": 1100.0}, {"ad": "[16.05.2026] ramazan korkmaz mayıs ayı extracı güv ödeme", "tutar": 3300.0}, {"ad": "[16.05.2026] murat duymaz dj maaş ödeme", "tutar": 15000.0}, {"ad": "[16.05.2026] hayrullah sarıcan kalan maaş  ödeme", "tutar": 12000.0}, {"ad": "[16.05.2026] alphan çetinkaya dj maaş ödeme", "tutar": 9250.0}, {"ad": "[16.05.2026] ramazan yüce dj maaş ödeme", "tutar": 4250.0}, {"ad": "[16.05.2026] nalan hamarat elektrikli araç dolum ücreti", "tutar": 948.47}, {"ad": "[16.05.2026] halil bey ch", "tutar": 4440.0}, {"ad": "[16.05.2026] arda kaancı servis extra ödeme", "tutar": 1000.0}, {"ad": "[16.05.2026] murat dili ballı ch", "tutar": 530.0}, {"ad": "[16.05.2026] enes güv ch", "tutar": 765.0}, {"ad": "[16.05.2026] duvarcı furkan ch", "tutar": 2010.0}, {"ad": "[16.05.2026] mehmet bildik ch", "tutar": 12255.0}, {"ad": "[16.05.2026] emir karakuş ch", "tutar": 795.0}, {"ad": "[16.05.2026] hasan erdoğan servis extra ödeme", "tutar": 1000.0}, {"ad": "[17.05.2026] samet uğuz ch", "tutar": 1000.0}, {"ad": "[17.05.2026] mum alımı", "tutar": 390.0}, {"ad": "[17.05.2026] burak akbay mayıs ayı güv extracı ödeme", "tutar": 1100.0}, {"ad": "[17.05.2026] nalan hamarat elektrikli araç dolum bedeli", "tutar": 710.64}, {"ad": "[17.05.2026] buse karaarslan kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[17.05.2026] emir karakuş ch", "tutar": 3500.0}, {"ad": "[17.05.2026] ekmek alımı", "tutar": 156.0}, {"ad": "[18.05.2026] parti malzemesi alımı", "tutar": 900.0}, {"ad": "[19.05.2026] hırdavat alışverişi", "tutar": 200.0}, {"ad": "[19.05.2026] nalan hamarat ev kombi tamir ücreti", "tutar": 1600.0}, {"ad": "[20.05.2026] mehmet bildik ch", "tutar": 3788.0}, {"ad": "[20.05.2026] veysel karataş ch", "tutar": 2150.0}, {"ad": "[20.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[21.05.2026] mehmet bildik ch", "tutar": 3788.0}, {"ad": "[21.05.2026] veysel karataş ch", "tutar": 2150.0}, {"ad": "[21.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] hüseyin persiyani servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] cemre ağaoğlu  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] caner gül  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] mert köse  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] berat şanlıoğlu  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] emir mogaddam  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] furkan ülker  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] ömer renklioğlu  servis extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] gizem kesik kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[22.05.2026] hızır matbaa fatura no:HZR2026000000235 broşür basım bedeli", "tutar": 2000.0}, {"ad": "[22.05.2026] hüseyin mermer ch", "tutar": 1655.0}, {"ad": "[23.05.2026] alper dönmez servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] berat şanlıoğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] caner gül servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] hüseyin persiyani servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] şakir sevgi servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] cemre ağaoğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] mete eroğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] ömer renklioğlu servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] furkan ülker servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] emir mogaddam servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] hamza erdoğan servis extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] osman dilek temizlik extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] ismail ekecik mutfak extra ödeme", "tutar": 1200.0}, {"ad": "[23.05.2026] gizem kesik kapı karşılama extra ödeme", "tutar": 1000.0}, {"ad": "[23.05.2026] murat duymaz dj ödeme", "tutar": 15000.0}, {"ad": "[23.05.2026] alphan çetinkaya dj ödeme", "tutar": 9250.0}, {"ad": "[23.05.2026] ramazan yüce dj ödeme", "tutar": 4250.0}, {"ad": "[23.05.2026] kadir sirkeci ch", "tutar": 14410.0}, {"ad": "[23.05.2026] ibrahim karayılan ch", "tutar": 1980.0}, {"ad": "[23.05.2026] müşteri ch 2 telefon alındı hesap için", "tutar": 17195.0}, {"ad": "[24.05.2026] ekmek alımı", "tutar": 160.0}, {"ad": "[24.05.2026] cavidan gasivom kasa extra ödeme", "tutar": 1000.0}, {"ad": "[25.05.2026] furkan ülker 2 günlük servis extra ödeme", "tutar": 2000.0}, {"ad": "[25.05.2026] cavidan gasimov kasa extra ödeme", "tutar": 1000.0}, {"ad": "[25.05.2026] nalan hamarat alış veriş", "tutar": 460.0}, {"ad": "[27.05.2026] nalan hamarat misafir sigara alımı", "tutar": 250.0}, {"ad": "[28.05.2026] halil bey ch", "tutar": 700.0}, {"ad": "[29.05.2026] nalan hamarat araç yakıt ücreti", "tutar": 1358.0}, {"ad": "[29.05.2026] nuri bey ch", "tutar": 1185.0}, {"ad": "[29.05.2026] emre öztürk servis extra ödeme", "tutar": 1000.0}, {"ad": "[30.05.2026] HÜSEYİN PERSİYANİ 2 GÜNLÜK SERVİS EXTRA ÖDEME", "tutar": 2000.0}, {"ad": "[30.05.2026] CEMRE AĞAOĞLU SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] CANER GÜL SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] ALİHAN SARITAŞ SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] BAHADIR ÇALMANDAN SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] ÖMER ÖZTÜRK SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] EMİR MOGHADDAM SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] HİLAL ÇOLAK SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] SADADEDDİN ERDOĞMUŞ SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] ŞAKİR SEVGİ SERVİS EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] BAŞAK GÖKTEN KAPI KARŞILAMA EXTRA ÖDEME", "tutar": 1000.0}, {"ad": "[30.05.2026] İSMAİL EKECİK MUTFAK EXTRA ÖDEME", "tutar": 1200.0}, {"ad": "[30.05.2026] cavidan gasimov servis extra ödeme", "tutar": 1000.0}, {"ad": "[30.05.2026] ramazan korkmaz mayıs ayı extracıgüv ödeme", "tutar": 4400.0}, {"ad": "[30.05.2026] sefa günebakan mayıs ayı extracı güv ödeme", "tutar": 2200.0}, {"ad": "[30.05.2026] nafiz belek mayıs ayı extracı güv ödeme", "tutar": 3300.0}, {"ad": "[30.05.2026] alphan çetin kaya dj ödeme", "tutar": 9250.0}, {"ad": "[30.05.2026] murat duymaz dj ödeme", "tutar": 15000.0}, {"ad": "[30.05.2026] kemal kaya ch", "tutar": 9760.0}, {"ad": "[30.05.2026] mutfak market alışverişi", "tutar": 346.07}, {"ad": "[31.05.2026] CİHA DJ CH", "tutar": 530.0}, {"ad": "[31.05.2026] HÜSEYİN MERMER CH", "tutar": 750.0}, {"ad": "[31.05.2026] EKMEK ALIMI", "tutar": 195.0}], "saatlik": [["00:00–01:00", 1856236.3699999999], ["01:00-02:00", 2008931.3300000005], ["02:00-03:00", 1187523.29], ["03:00-04:00", 334396.97000000003], ["18:00–20:00", 138558.04], ["20:00–22:00", 396070.10000000003], ["22:00–23:00", 864296.14], ["23:00–00:00", 1464746.7399999998]], "gece_ciro_toplam": 8250888.429999999, "gece_nakit": 1347970.89, "kasa_farki": -24823.499999999345}</script>
+</html>
